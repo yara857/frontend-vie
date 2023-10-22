@@ -1,0 +1,61 @@
+:root {
+    --blue: rgba(93, 145, 39, 1);
+    --copy-button-font-family: "Inter-Medium", Helvetica;
+    --copy-button-font-size: 14px;
+    --copy-button-font-style: normal;
+    --copy-button-font-weight: 500;
+    --copy-button-letter-spacing: 0.25px;
+    --copy-button-line-height: normal;
+    --dark-gray: rgba(49, 78, 20, 1);
+    --gray: rgba(231, 231, 227, 1);
+    --open-sans-regular-14px-font-family: "OpenSans-Regular", Helvetica;
+    --open-sans-regular-14px-font-size: 14px;
+    --open-sans-regular-14px-font-style: normal;
+    --open-sans-regular-14px-font-weight: 400;
+    --open-sans-regular-14px-letter-spacing: 0px;
+    --open-sans-regular-14px-line-height: normal;
+    --open-sans-semibold-14px-font-family: "OpenSans-SemiBold", Helvetica;
+    --open-sans-semibold-14px-font-size: 14px;
+    --open-sans-semibold-14px-font-style: normal;
+    --open-sans-semibold-14px-font-weight: 600;
+    --open-sans-semibold-14px-letter-spacing: 0px;
+    --open-sans-semibold-14px-line-height: normal;
+    --open-sans-semibold-16px-font-family: "OpenSans-SemiBold", Helvetica;
+    --open-sans-semibold-16px-font-size: 16px;
+    --open-sans-semibold-16px-font-style: normal;
+    --open-sans-semibold-16px-font-weight: 600;
+    --open-sans-semibold-16px-letter-spacing: 0px;
+    --open-sans-semibold-16px-line-height: normal;
+    --purewhite: rgba(255, 255, 255, 1);
+    --rubik-14px-font-family: "Rubik-SemiBold", Helvetica;
+    --rubik-14px-font-size: 14px;
+    --rubik-14px-font-style: normal;
+    --rubik-14px-font-weight: 600;
+    --rubik-14px-letter-spacing: 0px;
+    --rubik-14px-line-height: normal;
+    --white: rgba(255, 255, 255, 1);
+    --yellow: rgba(199, 231, 106, 1);
+}
+
+.top {
+    position: relative;
+    display: flex;
+    bottom: 150px;
+}
+
+.header-2 {
+    position: relative;
+    margin-right:700px;
+    margin-left: 500px;
+    right: 175px;
+    color: #2D490F;
+}
+
+.button-1 {
+    color: aliceblue;
+    font-weight: 600;
+    background-color: #2D490F;
+    height: 40px;
+    width: 175px;
+    border-radius: 8px;
+}

@@ -1,0 +1,943 @@
+.order-checkout {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.order-checkout .div {
+    background-color: transparent;
+    height: 1329px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+    bottom: 200px;
+
+}
+
+.order-checkout .overlap {
+    height: 1440px;
+    left: 60px;
+    position: absolute;
+    top: 204px;
+    width: 1380px;
+}
+
+.order-checkout .overlap-2 {
+    height: 1440px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1380px;
+}
+
+.order-checkout .vector {
+    height: 710px;
+    left: 767px;
+    position: absolute;
+    top: 390px;
+    width: 613px;
+}
+
+.order-checkout .frame-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 849px;
+    background-color: transparent;
+}
+
+.order-checkout .frame-2 {
+    background-color: #5d9127;
+    border-radius: 48px;
+    height: 591px;
+    overflow: hidden;
+    position: relative;
+    width: 1320px;
+}
+
+.order-checkout .logo-instance {
+    left: -6223px !important;
+    top: -149px !important;
+}
+
+.order-checkout .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 14px;
+    left: 110px;
+    position: absolute;
+    top: 89px;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-2 {
+    color: #c7e76a;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.order-checkout .p {
+    color: var(--gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 446px;
+}
+
+.order-checkout .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 76px;
+    left: 638px;
+    position: absolute;
+    top: 89px;
+    background-color: transparent;
+}
+
+.order-checkout .frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-3 {
+    color: #c7e76a;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.order-checkout .frame-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.order-checkout .text-wrapper-4 {
+    color: var(--gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.order-checkout .text-wrapper-5 {
+    color: var(--gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.order-checkout .img {
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.order-checkout .frame-7 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 50px;
+    left: 37px;
+    position: absolute;
+    top: 0;
+}
+
+.order-checkout .text-wrapper-6 {
+    color: #5d9127;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-decoration: underline;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.order-checkout .frame-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+}
+
+.order-checkout .frame-9 {
+    align-items: flex-start;
+    border-radius: 16px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 782px;
+}
+
+.order-checkout .text-wrapper-7 {
+    color: #2c490f;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.order-checkout .text-wrapper-8 {
+    align-self: stretch;
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.8;
+    position: relative;
+    right: 150px;
+}
+
+.order-checkout .input-fields-instance {
+    flex: 0 0 auto !important;
+}
+
+.order-checkout .design-component-instance-node {
+    font-family: "Josefin Sans-Regular", Helvetica !important;
+    font-size: 16px !important;
+    font-style: unset !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.5px !important;
+    line-height: normal !important;
+}
+
+.order-checkout .frame-10 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+}
+
+.order-checkout .frame-11 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+}
+
+.order-checkout .input-fields-2 {
+    flex: 0 0 auto !important;
+    width: 704px !important;
+}
+
+.order-checkout .button-instance {
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    left: 864px !important;
+    position: absolute !important;
+    top: 691px !important;
+    width: 466px !important;
+}
+
+.order-checkout .button-2 {
+    background-color: #314d13 !important;
+}
+
+.order-checkout .button-3 {
+    font-family: "Josefin Sans-Medium", Helvetica !important;
+    white-space: nowrap !important;
+}
+
+.order-checkout .div-wrapper {
+    align-items: center;
+    display: inline-flex;
+    gap: 47px;
+    left: 864px;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+}
+
+.order-checkout .frame-12 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 47px;
+    justify-content: center;
+    position: relative;
+    background-color: transparent;
+}
+
+.order-checkout .frame-13 {
+    align-items: flex-start;
+    background-color: #fafafab2;
+    border-radius: 24px;
+    box-shadow: 0px 4px 4px #00000040;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    position: relative;
+}
+
+.order-checkout .frame-14 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    width: 418px;
+    background-color: transparent;
+}
+
+.order-checkout .order-summary {
+    color: #314d13;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .frame-15 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 418px;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-9 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-10 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    opacity: 0.8;
+    position: relative;
+    white-space: nowrap;
+    background-color: transparent;
+    width: fit-content;
+}
+
+.order-checkout .delivery {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .span {
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-11 {
+    font-family: var(--open-sans-semibold-20px-font-family);
+    font-size: var(--open-sans-semibold-20px-font-size);
+    font-style: var(--open-sans-semibold-20px-font-style);
+    font-weight: var(--open-sans-semibold-20px-font-weight);
+    letter-spacing: var(--open-sans-semibold-20px-letter-spacing);
+    line-height: var(--open-sans-semibold-20px-line-height);
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-12 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    height: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    opacity: 0.8;
+    position: relative;
+    width: 57px;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-13 {
+    color: var(--dark-gray);
+    font-family: var(--open-sans-semibold-20px-font-family);
+    font-size: var(--open-sans-semibold-20px-font-size);
+    font-style: var(--open-sans-semibold-20px-font-style);
+    font-weight: var(--open-sans-semibold-20px-font-weight);
+    letter-spacing: var(--open-sans-semibold-20px-letter-spacing);
+    line-height: var(--open-sans-semibold-20px-line-height);
+    margin-top: -1px;
+    opacity: 0.8;
+    position: relative;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-14 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-15 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    opacity: 0.8;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .frame-16 {
+    align-items: flex-start;
+    background-color: #fafafab2;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px #00000040;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 62px 24px 24px;
+    position: relative;
+    width: 380px;
+}
+
+.order-checkout .frame-17 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+.order-checkout .order-details {
+    color: #314d13;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .frame-18 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+.order-checkout .rectangle {
+    align-self: stretch;
+    object-fit: cover;
+    position: relative;
+    border-radius: 25px;
+    width: 120px;
+    background-color: transparent;
+}
+
+.order-checkout .frame-19 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 16px;
+    position: relative;
+    background-color: transparent;
+}
+
+.order-checkout .frame-20 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: -35.45px;
+    position: relative;
+    background-color: transparent;
+}
+
+.order-checkout .frame-21 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    width: 255.45px;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-16 {
+    align-self: stretch;
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    background-color: transparent;
+}
+
+.order-checkout .frame-22 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    width: 255.45px;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-17 {
+    align-self: stretch;
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    opacity: 0.8;
+    position: relative;
+    background-color: transparent;
+}
+
+.order-checkout .frame-23 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    background-color: transparent;
+    position: relative;
+}
+
+.order-checkout .text-wrapper-18 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    opacity: 0.8;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-19 {
+    color: #314d13;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .frame-24 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 75px;
+    left: 37px;
+    position: absolute;
+    top: 567px;
+    width: 704px;
+    background-color: transparent;
+}
+
+.order-checkout .frame-25 {
+    align-items: flex-start;
+    background-color: #fafafab2;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px #00000040;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    margin-bottom: -5px;
+    padding: 16px 27px 16px 16px;
+    position: relative;
+    width: 704px;
+}
+
+.order-checkout .frame-26 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 8px;
+    position: relative;
+    background-color: transparent;
+}
+
+.order-checkout .standard-delivery {
+    color: #2c490f;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+
+}
+
+.order-checkout .text-wrapper-20 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -181px;
+    opacity: 0.8;
+    position: relative;
+    width: 782px;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-21 {
+    color: #41681a;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.order-checkout .frame-27 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex-direction: column;
+    /* gap: 24px; */
+    left: 37px;
+    position: absolute;
+    top: 715px;
+    background-color: transparent;
+}
+
+.order-checkout .frame-28 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 0px;
+    justify-content: center;
+    position: relative;
+    
+    background-color: transparent;
+}
+
+.order-checkout .checkbox-instance {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+    background-color: transparent;
+}
+
+.order-checkout .checkbox-2 {
+    height: 24px !important;
+    background-color: transparent;
+}
+
+.order-checkout .checkbox-3 {
+    height: 14px !important;
+    left: 5px !important;
+    top: 5px !important;
+    width: 14px !important;
+    background-color: transparent;
+}
+
+.order-checkout .checkbox-4 {
+    height: 24px !important;
+    width: 24px !important;
+    background-color: transparent;
+}
+
+.order-checkout .checkbox-5 {
+    height: 18px !important;
+    left: 3px !important;
+    top: 3px !important;
+    width: 18px !important;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-22 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 698px;
+    text-align: left;
+    background-color: transparent;
+}
+
+.order-checkout .vector-2 {
+    height: 443px;
+    left: -5338px;
+    position: absolute;
+    top: 2058px;
+    width: 686px;
+}
+
+.order-checkout .text-wrapper-23 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 435px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    width: 86px;
+    background-color: transparent;
+}
+
+.order-checkout .text-wrapper-24 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 249px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    width: 107px;
+}
+
+.order-checkout .text-wrapper-25 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 102px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    width: 68px;
+}
+
+.order-checkout .group {
+    height: 91px;
+    left: 636px;
+    position: absolute;
+    top: 64px;
+    width: 168px;
+}
+
+.order-checkout .text-wrapper-26 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1004px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    width: 145px;
+}
+
+.order-checkout .vector-3 {
+    height: 30px;
+    left: 1299px;
+    position: absolute;
+    top: 97px;
+    width: 29px;
+}
+
+.order-checkout .vector-4 {
+    height: 29px;
+    left: 1239px;
+    position: absolute;
+    top: 98px;
+    width: 31px;
+}
+
+.order-checkout .magnifying-glass {
+    height: 27px;
+    left: 1183px;
+    position: absolute;
+    top: 100px;
+    width: 27px;
+}
+
+.inputField{
+    width : 350px ;
+    height: 45px;
+    border-radius: 10px;
+
+}
+
+#DA{
+    width: 725px;
+}
+
+
+.square-radio {
+    width: 15px;
+    /* Desired width of the square */
+    height: 15px;
+    /* Desired height of the square */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #000;
+    /* Border style */
+    border-radius: 0;
+    /* Remove border-radius for a square shape */
+    outline: none;
+    margin-right: 5px;
+    /* Optional margin between the radio button and label */
+    background-color: transparent;
+}
+
+/* Optional styling for when the radio button is checked */
+.square-radio:checked {
+    background-color: #000;
+    /* Color when checked */
+}
+
+.review{
+    width: 325px;
+    height: 50px;
+    color: white;
+    background-color: #314d13;
+    border-radius: 10px;
+    border: none;
+    top: 250px;
+}

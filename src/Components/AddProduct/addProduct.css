@@ -1,0 +1,38 @@
+.add-product{
+    height: 450px;
+
+    /* position: relative; */
+    background-color: transparent;
+}
+
+.input{
+    border: 1px solid;
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+    position: relative;
+    bottom: 90px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    justify-self: center;
+    right: 150px;
+}
+.product{
+    position: relative;
+    bottom: 90px;
+    width: 100%;
+    right: 250px;
+    text-align: left;
+
+}
+
+button{
+    background-color: #5D9127 ;
+    color: aliceblue;
+    border: none;
+}
+label{
+    align-items: center;
+
+}

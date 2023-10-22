@@ -1,0 +1,148 @@
+.login-and-register {
+    position: absolute;
+    margin: 45px;
+    
+}
+
+.login-and-register .login {
+    top: 0;
+    bottom: 100%;
+    right: 100%;
+    
+    display: inline-block;
+}
+
+.pw {
+    position: relative;
+    font-size: 10px;
+    padding-bottom: 10px;
+    right: 8px;
+    bottom: 20px;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.Form {
+    /* position: relative; */
+    bottom: 45px;
+    background-color: transparent;
+}
+
+.inputField {
+    background-color: transparent;
+    width: 350px;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #314e14;
+    color: aliceblue;
+    position: relative;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.login-button .login-text {
+    background-color: transparent;
+    right: 145px;
+    bottom: 2px;
+    font-weight: 100px;
+    position: relative;
+}
+
+.text {
+    position: relative;
+    font-size: 10px;
+    padding-bottom: 10px;
+    right: 8px;
+    /* bottom: 10px; */
+    top: 10px;
+    left: 2px;
+}
+
+#lined {
+    text-decoration: underline;
+}
+
+.frame-1 {
+    border: #314e14 1px solid;
+    border-radius: 5px;
+    width: 105px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+
+}
+
+#icon-1 {
+    margin-left: 20px;
+}
+
+.icon {
+    margin-top: 5px;
+}
+
+.square-radio {
+    width: 10px;
+    /* Desired width of the square */
+    height: 10px;
+    /* Desired height of the square */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #000;
+    /* Border style */
+    border-radius: 0;
+    /* Remove border-radius for a square shape */
+    outline: none;
+    margin-right: 5px;
+    /* Optional margin between the radio button and label */
+    background-color: transparent;
+}
+
+/* Optional styling for when the radio button is checked */
+.square-radio:checked {
+    background-color: #000;
+    /* Color when checked */
+}
+.header-2{
+    background-color: transparent;
+}
+.vl {
+    border-left: 2px solid #314e14;
+    height: 850px;
+    right: 100;
+    display: inline-block;
+  }
+.login-and-register .register {
+    top: 0;
+    bottom: 100%;
+    right: 100%;
+    display: inline-block;
+}
+.header-2 , .gender , .sw , .header{
+    text-align: left;
+    padding-left: 100px ;
+    margin-top: 25px;
+}
+.header-2{
+    text-align: left;
+    /* padding-bottom: 25px; */
+}
+.small{
+    font-size: smaller;
+    text-align: left;
+    padding-left: 100px ;
+    padding-bottom: 5px;
+}
+.privacy{
+    font-size: smaller;
+    text-align: left;
+    padding-left: 100px ;
+    padding-bottom: 5px; 
+}

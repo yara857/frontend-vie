@@ -1,0 +1,115 @@
+.catalog {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.catalog .div {
+    background-color: transparent;
+    height: 750px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    /* bottom: 800px; */
+}
+
+.catalog .overlap {
+    height: 1798px;
+    left: 0;
+    position: absolute;
+    top: 50px;
+    width: 1920px;
+    /* bottom: 1500px; */
+}
+
+.catalog .vie-wall-mockup {
+    height: 544px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    /* bottom: 1500px; */
+    width: 1920px;
+}
+
+.catalog .rectangle {
+    background-color: #ffffffcc;
+    border-radius: 30px;
+    box-shadow: 5px 7px 4px #00000066;
+    height: 398px;
+    left: 80px;
+    position: absolute;
+    top: 70px;
+    width: 554px;
+    /* bottom: 1500px; */
+}
+
+.catalog .group {
+    height: 240px;
+    left: 159px;
+    position: absolute;
+    top: 120px;
+    width: 399px;
+    background-color: transparent;
+}
+
+span {
+    text-align: left;
+}
+
+.catalog .GET-OFF-YOUR {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 395px;
+    background-color: transparent;
+}
+
+.catalog .span {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    background-color: transparent;
+}
+
+.catalog .text-wrapper-2 {
+    font-family: "Josefin Sans-BoldItalic", Helvetica;
+    font-style: italic;
+    font-weight: 700;
+    left: 0;
+    background-color: transparent;
+}
+
+
+.catalog .text-wrapper-4 {
+    font-size: 23px;
+    background-color: transparent;
+    text-align: left;
+    padding-top: 15px;
+
+}
+
+.buttonSpan {
+    position: relative;
+    display: inline-block;
+    top: 220px;
+    width: 250px;
+    left: -20%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5d9127;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+}

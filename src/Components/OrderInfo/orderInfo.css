@@ -1,0 +1,596 @@
+:root {
+    --blue: rgba(93, 145, 39, 1);
+    --copy-button-font-family: "Inter-Medium", Helvetica;
+    --copy-button-font-size: 14px;
+    --copy-button-font-style: normal;
+    --copy-button-font-weight: 500;
+    --copy-button-letter-spacing: 0.25px;
+    --copy-button-line-height: normal;
+    --dark-gray: rgba(49, 78, 20, 1);
+    --gray: rgba(231, 231, 227, 1);
+    --gray-main: rgba(112, 112, 110, 1);
+    --gray-maybe: rgba(35, 35, 33, 1);
+    --purewhite: rgba(255, 255, 255, 1);
+    --white: rgba(255, 255, 255, 1);
+}
+
+.OrderInfo {
+    margin: 25px;
+}
+
+.frame-1 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 16px;
+    position: relative;
+    width: 1288px;
+    bottom: 150px;
+    left: 50px;
+}
+
+.frame-1 .div {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+.frame-1 .div-2 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    padding: 0px 0px 0px 11px;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+.frame-1 .icon-arrow-left {
+    height: 17.27px;
+    margin-left: -1.9px;
+    position: relative;
+    width: 22.67px;
+    background-color: transparent;
+}
+
+.frame-1 .text-wrapper-2 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    background-color: transparent;
+    width: fit-content;
+}
+
+.frame-1 .div-wrapper {
+    align-items: center;
+    background-color: #ffa52fcc;
+    border-radius: 8px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    padding: 8px;
+    position: relative;
+}
+
+.frame-1 .text-wrapper-3 {
+    color: var(--gray-maybe);
+    font-family: "Josefin Sans-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.frame-1 .div-3 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+.frame-1 .div-4 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+    background-color: transparent;
+}
+
+.frame-1 .icon-instance-node {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+    background-color: transparent;
+}
+
+.frame-1 .p {
+    color: #000000;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.frame-1 .div-5 {
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    width: 375px;
+    background-color: transparent;
+}
+
+.frame-1 .frame-wrapper {
+    align-items: flex-end;
+    background-color: #f4f1f1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    position: relative;
+    width: 219px;
+}
+
+.frame-1 .text-wrapper-4 {
+    color: var(--gray-maybe);
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    /* padding: 15px 30px; */
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    /* overflow: auto; */
+    background-color: #fff;
+    border-radius: 5px;
+    /* box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4); */
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+
+.dropdown-options a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+
+.dropdown-options a:hover {
+    color: #0a0a23;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+input{
+    border: none;
+    font-size: 20px;
+    background-color:#ffff;
+}
+
+.frame-1 .chevron-down {
+    height: 20px !important;
+    position: relative !important;
+    width: 20px !important;
+    background-color: transparent;
+}
+
+.frame-1 .img-frame {
+    align-items: center;
+    background-color: #f4f1f1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-around;
+    padding: 8px 16px;
+    position: relative;
+
+}
+
+.frame-1 .img {
+    height: 34px;
+    position: relative;
+    width: 30px;
+    background-color: transparent;
+
+}
+
+.frame-1 .div-wrapper-2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #f4f1f1;
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 16px;
+    justify-content: center;
+    padding: 8px 16px;
+    position: relative;
+}
+
+.frame-1 .text-wrapper-5 {
+    color: var(--gray-maybe);
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.frame-1 .div-6 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+.frame-1 .div-7 {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--gray);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    padding: 16px 24px;
+    position: relative;
+    width: 348px;
+}
+
+.frame-1 .div-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    margin-left: -2px;
+    margin-right: -2px;
+    position: relative;
+    background-color: transparent;
+}
+
+.frame-1 .div-9 {
+    align-items: flex-start;
+    background-color: var(--blue);
+    border-radius: 8px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 16px;
+    position: relative;
+}
+
+.frame-1 .div-10 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    background-color: transparent;
+}
+
+.frame-1 .text-wrapper-6 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.frame-1 .div-11 {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 232px;
+    background-color: transparent;
+}
+
+.frame-1 .text-wrapper-7 {
+    align-self: stretch;
+    color: var(--gray-main);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+}
+
+.frame-1 .text-wrapper-8 {
+    align-self: stretch;
+    color: var(--gray-main);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+}
+
+.frame-1 .button-instance {
+    align-self: stretch !important;
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    border: none;
+    color: whitesmoke;
+    align-items: center;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #314E14;
+}
+
+.frame-1 .download-info {
+    margin-left: 100px;
+}
+
+.frame-1 .div-12 {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--gray);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+    position: relative;
+    width: 348px;
+}
+
+.frame-1 .design-component-instance-node {
+    font-family: "Josefin Sans-Medium", Helvetica !important;
+    font-size: 18px !important;
+    font-style: unset !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+    line-height: normal !important;
+    margin-top: -2px !important;
+    white-space: nowrap !important;
+
+}
+
+.frame-1 .frame-wrapper-2 {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--gray);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 172px;
+    padding: 16px 24px 41px;
+    position: relative;
+    width: 417px;
+}
+
+.frame-1 .div-13 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+    width: 360px;
+    background-color: transparent;
+}
+
+.frame-1 .text-wrapper-9 {
+    align-self: stretch;
+    color: var(--gray-main);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 27.5px;
+    margin-top: -1px;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+}
+
+.frame-1 .div-14 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--gray);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    position: relative;
+    width: 348px;
+}
+
+.frame-1 .text-wrapper-10 {
+    align-self: stretch;
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+}
+
+.frame-1 .div-15 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+.frame-1 .div-16 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+.frame-1 .img-2 {
+    flex: 0 0 auto;
+    position: relative;
+    background-color: transparent;
+}
+
+.frame-1 .text-wrapper-11 {
+    color: var(--gray-main);
+    flex: 1;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+}
+
+.frame-1 .div-17 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+    height: 154px;
+    position: relative;
+}
+
+.frame-1 .frame-wrapper-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--gray);
+    border-radius: 16px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 16px;
+    padding: 16px;
+    position: relative;
+    width: 850px;
+}
+
+.frame-1 .text-wrapper-12 {
+    align-self: stretch;
+    color: var(--gray-main);
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    background-color: transparent;
+}

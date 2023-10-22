@@ -1,0 +1,262 @@
+:root {
+    --dark-gray: rgba(35, 35, 33, 1);
+    --gray: rgba(231, 231, 227, 1);
+    --open-sans-semibold-16px-font-family: "OpenSans-SemiBold", Helvetica;
+    --open-sans-semibold-16px-font-size: 16px;
+    --open-sans-semibold-16px-font-style: normal;
+    --open-sans-semibold-16px-font-weight: 600;
+    --open-sans-semibold-16px-letter-spacing: 0px;
+    --open-sans-semibold-16px-line-height: normal;
+    --purewhite: rgba(255, 255, 255, 1);
+    --rubik-12px-font-family: "Rubik-SemiBold", Helvetica;
+    --rubik-12px-font-size: 12px;
+    --rubik-12px-font-style: normal;
+    --rubik-12px-font-weight: 600;
+    --rubik-12px-letter-spacing: 0px;
+    --rubik-12px-line-height: normal;
+    --white: rgba(255, 255, 255, 1);
+}
+.product-page {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    }
+
+.product-page .div {
+    background-color: transparent;
+    height: 950px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+    bottom: 200px;
+}
+
+.product-page .overlap {
+    height: 1226px;
+    left: 0;
+    position: absolute;
+    /* top: 2534px; */
+    width: 1440px;
+    background-color: transparent;
+}
+
+.product-page .vector {
+    height: 546px;
+    left: 925px;
+    position: absolute;
+    top: 361px;
+    width: 515px;
+    background-color: transparent;
+}
+
+.product-page {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-page .overlap-2 {
+    height: 2262px;
+    left: 0;
+    position: absolute;
+    top: 182px;
+    width: 1440px;
+}
+
+.product-page .overlap-3 {
+    height: 2193px;
+    left: 0;
+    position: absolute;
+    top: 69px;
+    width: 1440px;
+}
+
+.product-page .vector-2 {
+    height: 646px;
+    right: 720px;
+    position: absolute;
+    top: 0px;
+    width: 646px;
+}
+
+.product-page .vector-3 {
+    height: 40px;
+    position: absolute;
+    bottom: -5px;
+    right: -60px;
+    width: 40px;
+    background-color:#5d9127;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.product-page .frame-7 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 32px;
+    left: 948px;
+    position: absolute;
+    top: 0;
+}
+
+.product-page .frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.product-page .div-wrapper {
+    align-items: flex-start;
+    background-color: #5d9127;
+    border-radius: 12px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 12px 16px;
+    position: relative;
+}
+
+.product-page .text-wrapper-10 {
+    color: var(--white);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.product-page .text-wrapper-11 {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 430px;
+    text-align: left;
+}
+
+.product-page .text-wrapper-12 {
+    color: #41681a;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    text-align: left;
+}
+
+.product-page .frame-8 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 14px;
+    position: relative;
+    width: 431px;
+}
+
+.product-page .frame-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    background-color: transparent;
+}
+
+.product-page .component {
+    height: 45px;
+    position: relative;
+    width: 370px;
+}
+
+.product-page .overlap-group-2 {
+    border-radius: 10px;
+    height: 45px;
+    position: relative;
+}
+
+.product-page .rectangle-14 {
+    background-color: #ffffff !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 370px !important;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.product-page .SHOP-NOW-2 {
+    color: #2c490f;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    width: 156px;
+}
+
+
+.product-page .about-the-product {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    background-color: transparent;
+    width: fit-content;
+    text-align: left;
+}
+
+.product-page .organic-and-health {
+    color: var(--dark-gray);
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.8;
+    position: relative;
+    width: 430px;
+    background-color: transparent;
+    text-align: left;
+}
+.product-page .group-3{
+    background-color:#5d9127;
+    left: 0 !important;
+    /* position: absolute !important; */
+    top: 0 !important;
+    width: 430px !important;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+    color: #ffffff;
+}

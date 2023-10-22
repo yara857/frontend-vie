@@ -1,0 +1,204 @@
+
+.frame {
+    background-color: #5d9127;
+    border-radius: 48px 48px 0px 0px;
+    height: 260px;
+    width: 1255px;
+    position: absolute;
+    /* margin-top: 150px; */
+    /* margin-left: 100px; */
+    /* bottom: 0;
+    top:500px; */
+
+}
+
+.frame .logo-instance {
+    left: 688px !important;
+    top: -2265px !important;
+    background-color: transparent;
+}
+
+.frame .div {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 14px;
+    left: 110px;
+    position: absolute;
+    top: 89px;
+    background-color: transparent;
+}
+
+.frame .text-wrapper {
+    color: #c7e76a;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.frame .p {
+    color: rgba(231, 231, 227, 1);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 446px;
+    text-align: left;
+    background-color: transparent;
+    
+}
+
+.frame .div-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 76px;
+    left: 638px;
+    position: absolute;
+    top: 89px;
+    background-color: transparent;
+}
+
+.frame .div-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    background-color: transparent;
+}
+
+.frame .text-wrapper-2 {
+    color: #c7e76a;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.frame .div-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    background-color: transparent;
+}
+
+.frame .text-wrapper-3 {
+    color: rgba(231, 231, 227, 1);;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.frame .text-wrapper-4 {
+    color: rgba(231, 231, 227, 1);;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.frame .img {
+    flex: 0 0 auto;
+    position: relative;
+    background-color: transparent;
+}
+
+.icons{
+    background-color: transparent;
+
+}
+.icon{
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    position: relative;
+    right: 10px;
+}
+@media (max-width: 480px) { 
+    .frame{
+        width: 350px;
+        /* position: relative; */
+        /* margin-right: 150px;
+        left: 25px; */
+
+    }
+    .frame .div-4{
+        display: none;
+    }
+    .frame .hide{
+        display: none;
+    }
+    .frame .div{
+        /* left: 50px; */
+        /* bottom: 30px; */
+    }
+    .frame .text-wrapper{
+        font-size: 20px;
+        bottom: 25px;
+        right: 75px;
+
+    }
+    .frame .p{
+        font-size: 15px;
+        width: 100px;
+        bottom: 40px;
+        right: 75px;
+    }
+    .frame .div-3{
+
+    }
+    .frame .text-wrapper-2{
+        font-size: 20px;
+        bottom: 25px;
+        right: 590px;
+    }
+    .frame .icons{
+        bottom: 40px;
+        right: 580px;
+    }
+    .frame .icon{
+        right: 600px;
+        margin-left: 5px;
+    }
+} 
+  
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) { 
+   
+} 
+  
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ 
+   
+} 

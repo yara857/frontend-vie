@@ -1,0 +1,507 @@
+.about-us {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 100%;
+
+}
+
+.about-us .div {
+    /* background-color: #e2edc2; */
+    height: 1249px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+    background-color: transparent;
+}
+
+.about-us .overlap {
+    height: 1190px;
+    left: 0;
+    position: absolute;
+    top: 374px;
+    width: 1440px;
+    background-color: transparent;
+}
+
+.about-us .overlap-group {
+    height: 1190px;
+    left: 0;
+    position: absolute;
+    /* top: 0; */
+    bottom: 200px;
+    width: 1440px;
+    background-color: transparent;
+}
+
+.about-us .png-vie-morango {
+    height: 785px;
+    left: 930px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 510px;
+    background-color: transparent;
+}
+
+.about-us .image {
+    height: 506px;
+    left: 693px;
+    object-fit: cover;
+    position: absolute;
+    top: 271px;
+    width: 530px;
+    background-color: transparent;
+}
+
+.about-us .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    left: 60px;
+    position: absolute;
+    top: 599px;
+}
+
+.about-us .frame-2 {
+    background-color: #5d9127;
+    border-radius: 48px;
+    height: 591px;
+    overflow: hidden;
+    position: relative;
+    width: 1320px;
+}
+
+.about-us .logo-instance {
+    left: -1039px !important;
+    top: -3801px !important;
+}
+
+.about-us .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 14px;
+    left: 110px;
+    position: absolute;
+    top: 89px;
+}
+
+
+.about-us .text-wrapper {
+    color: #c7e76a;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    /* position: relative; */
+    white-space: nowrap;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.about-us .p {
+    color: rgba(231, 231, 227, 1);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 446px;
+    background-color: transparent;
+}
+
+.about-us .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 76px;
+    left: 638px;
+    position: absolute;
+    top: 89px;
+}
+
+.about-us .frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.about-us .text-wrapper-2 {
+    color: #c7e76a;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.about-us .frame-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.about-us .text-wrapper-3 {
+    color: var(--gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.about-us .text-wrapper-4 {
+    color: var(--gray);
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.about-us .img {
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.about-us .text-wrapper-5 {
+    color: #314e14;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-size: 28px;
+    left: 170px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 150px;
+    width: 768px;
+    background-color: transparent;
+}
+
+.about-us .BITES-cookies-and {
+    height: 273px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 298px;
+    width: 720px;
+    background-color: transparent;
+}
+
+.about-us .text-wrapper-6 {
+    color: #2c490f;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 550px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 290px;
+    white-space: nowrap;
+    background-color: transparent;
+}
+
+.about-us .frame-7 {
+    height: 50px;
+    left: 520px;
+    position: absolute;
+    top: 350px;
+    width: 272px;
+    background-color: transparent;
+}
+
+.about-us .img {
+    height: 50px;
+    position: relative;
+    width: 50px;
+    margin: 5px;
+    background-color: transparent;
+
+}
+
+.about-us .group {
+    height: 37px;
+    left: 171px;
+    position: absolute;
+    top: 148px;
+    width: 301px;
+    background-color: transparent;
+}
+
+.about-us .GET-NOW-wrapper {
+    background-color: #5d9127;
+    border-radius: 10px;
+    height: 37px;
+    position: relative;
+    width: 299px;
+    top: 150px
+}
+
+.about-us .GET-NOW {
+    color: #e2edc2;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 86px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+    width: 126px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.about-us .vector {
+    height: 434px;
+    left: -154px;
+    position: absolute;
+    top: -1767px;
+    width: 683px;
+}
+
+.about-us .text-wrapper-7 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 435px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    width: 86px;
+}
+
+.about-us .text-wrapper-8 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1004px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    width: 145px;
+}
+
+.about-us .text-wrapper-9 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 249px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    width: 107px;
+}
+
+.about-us .text-wrapper-10 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 102px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    width: 68px;
+}
+
+.about-us .vector-2 {
+    height: 30px;
+    left: 1299px;
+    position: absolute;
+    top: 97px;
+    width: 29px;
+}
+
+.about-us .vector-3 {
+    height: 29px;
+    left: 1239px;
+    position: absolute;
+    top: 98px;
+    width: 31px;
+}
+
+.about-us .ABOUT-us-wrapper {
+    background-color: #fafafab2;
+    border-radius: 20px;
+    box-shadow: 4px 4px 7px #00000033;
+    height: 106px;
+    left: 108px;
+    top: 229px;
+    margin-left: 100px;
+    width: 1243px;
+}
+
+.about-us .ABOUT-us {
+    color: #000000;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-size: 50px;
+    font-weight: 200;
+    left: 486px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 33px;
+    white-space: nowrap;
+    width: 252px;
+    background-color: transparent;
+    margin-left: 150px;
+}
+
+.about-us .magnifying-glass {
+    height: 27px;
+    left: 1183px;
+    position: absolute;
+    top: 100px;
+    width: 27px;
+}
+
+.about-us .group-2 {
+    height: 91px;
+    left: 636px;
+    position: absolute;
+    top: 64px;
+    width: 168px;
+}
+
+
+@media (max-width: 500px) {
+
+    .about-us {
+        position: absolute;
+    }
+
+    .about-us .div {
+        /* background-color: #e2edc2; */
+        height: 1249px;
+        position: relative;
+        background-color: transparent;
+    }
+
+    .about-us .ABOUT-us-wrapper {
+        border-radius: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 300px;
+    }
+
+    .about-us .ABOUT-us {
+        color: #000000;
+        font-family: "Josefin Sans-Light", Helvetica;
+        font-size: 25px;
+        font-weight: 600;
+        left: 0px;
+        letter-spacing: 0;
+        /* line-height: normal; */
+        position: absolute;
+        top: 40px;
+        white-space: nowrap;
+        width: 252px;
+        background-color: transparent;
+        margin-left: 60px;
+    }
+
+    .about-us .text-wrapper-5 {
+        font-size: 20px;
+        left: 30px;
+        letter-spacing: 0;
+        position: absolute;
+        top: 100px;
+        width: 300px;
+        background-color: transparent;
+    }
+
+    .about-us .group {
+        left: 35px;
+        position: absolute;
+        top: 230px;
+        width: 301px;
+    }
+
+    .about-us .text-wrapper-6 {
+        font-size: 30px;
+        font-weight: 600;
+        left: 110px;
+        top: 260px;
+    }
+
+    .about-us .frame-7 {
+        height: 30px;
+        left: 50px;
+        position: absolute;
+        top: 300px;
+        width: 272px;
+        background-color: transparent;
+    }
+
+    .about-us .overlap {
+        height: 1190px;
+        left: 0;
+        position: absolute;
+        top: 374px;
+        /* width: 1440px; */
+        background-color: transparent;
+    }
+
+    .about-us .overlap-group {
+        height: 1190px;
+        left: 0;
+        position: absolute;
+        /* top: 0; */
+        bottom: 200px;
+        width: 1440px;
+        background-color: transparent;
+    }
+
+    .about-us .png-vie-morango {
+        display: none;
+    }
+
+    .about-us .image {
+        display: none;
+    }
+
+    .about-us .BITES-cookies-and {
+        height: 173px;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        top: 198px;
+        width: 320px;
+        background-color: transparent;
+    }
+
+
+}

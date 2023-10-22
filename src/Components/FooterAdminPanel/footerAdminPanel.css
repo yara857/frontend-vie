@@ -1,0 +1,21 @@
+.icons{
+    position: relative;
+    right: 600px;
+}
+.icon-1{
+    margin: 10px;
+}
+.line-1 { 
+    position: relative;
+    border-bottom: solid #2D490F 2px;
+    width: 950px;
+    bottom:30px;
+    color: #2D490F;
+}
+.copyRights{
+    position: relative;
+    display: flex;
+    bottom: 60px;
+    margin-left: 1300px;
+    color: #2D490F;
+}
